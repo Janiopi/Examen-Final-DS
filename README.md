@@ -18,5 +18,12 @@
 
 ## Ejercicio 2
 
-## Ejercicio 3
+Construir la imagen
+    `docker build -t final-ds .`
+
+Correr el contenedor
+    `docker run  final-ds`
+
+
+
 
