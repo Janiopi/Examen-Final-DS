@@ -19,7 +19,7 @@ function analizar( ){
         echo "exit status 2"
         return 2
     fi
-# Exit 3: Error al analizar el archivo, pero se detectó un problema (Este lo estoy considerando como caso limite)
+# Exit 3: Error al analizar el archivo, pero se detectó un problema
     elif [ "$1" == "error_with_problem" ]; then
         echo "exit status 3"
         return 3
